@@ -1,0 +1,10 @@
+#!/usr/bin/env rc
+
+flag e +
+
+killall -9 page || true
+rm -f out.png
+
+php genqrcode.php out.png 'THIS IS A TEST THIS IS A TEST'
+
+page out.png
