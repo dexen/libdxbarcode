@@ -1,0 +1,12 @@
+#!/usr/bin/env rc
+
+flag e +
+
+killall -9 page || true
+rm -f out.png
+
+code=123456789012
+checkdigit=`{php calcean13checkdigit.php $code}
+php genean13.php out.png $code^$checkdigit
+
+page out.png
