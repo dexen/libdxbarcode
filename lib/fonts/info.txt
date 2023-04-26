@@ -1,0 +1,4 @@
+copy from https://ttfonts.net/font/11537_Crystal.htm
+
+Crystal font by  Jerry Fitzpatrick, version 4.1 dated 12/11/97
+note this is distinct from the latest version 5.1, and seems to handle antialiasing at small better.
